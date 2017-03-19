@@ -1,0 +1,11 @@
+settings.json
+ssh_settings.json
+postgres_settings.json
+
+src/settings.json
+src/ssh_settings.json
+src/postgres_settings.json
+
+.ipynb_checkpoints/*
+src/.ipynb_checkpoints/*
+.DS_Store

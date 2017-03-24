@@ -23,6 +23,8 @@ Data exploration and initial ML models for the Bay Area are developed in `rental
 - Models for other regions - potentially scale for multiple regions
 - Once more months are available, time series analysis
 
+## Preliminary results
+<iframe width="100%" height="520" frameborder="0" src="https://yangj90.carto.com/viz/1b5717f0-1096-11e7-b28d-0e3ff518bd15/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 
 

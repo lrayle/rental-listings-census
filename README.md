@@ -24,7 +24,7 @@ Data exploration and initial ML models for the Bay Area are developed in `rental
 - Once more months are available, time series analysis
 
 ## Preliminary results
-<script src="https://yangj90.carto.com/api/v2/viz/1b5717f0-1096-11e7-b28d-0e3ff518bd15/viz.json"></script>
+https://yangj90.carto.com/viz/1b5717f0-1096-11e7-b28d-0e3ff518bd15/public_map
 
 
 

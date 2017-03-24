@@ -1,0 +1,107 @@
+*****************************************************************************
+*             Semiparametric Geographically Weighted Regression             *
+*                         Release 1.0.90 (GWR 4.0.90)                       *
+*                               12 May 2015                                 *
+*                 (Originally coded by T. Nakaya: 1 Nov 2009)               *
+*                                                                           *
+*              Tomoki Nakaya(1), Martin Charlton(2), Chris Brunsdon (2)     *
+*              Paul Lewis (2), Jing Yao (3), A Stewart Fotheringham (4)     *
+*                       (c) GWR4 development team                           *
+* (1) Ritsumeikan University, (2) National University of Ireland, Maynooth, *
+*         (3) University of Glasgow, (4) Arizona State University           *
+*****************************************************************************
+
+Program began at 2017/3/24 5:31:51
+
+*****************************************************************************
+Session: 
+Session control file: D:\rental-listings-census\src\gwr\rental_listing_gwr.ctl
+*****************************************************************************
+Data filename: D:\sfbay.dbf
+Number of areas/points: 62754
+
+Model settings---------------------------------
+Model type: Gaussian
+Geographic kernel: fixed Gaussian
+Method for optimal bandwidth search: Golden section search
+Criterion for optimal bandwidth: CV
+Number of varying coefficients: 17
+Number of fixed coefficients:   0
+
+Modelling options---------------------------------
+Standardisation of independent variables: OFF
+Testing geographical variability of local coefficients: OFF
+Local to Global Variable selection: OFF
+Global to Local Variable selection: OFF
+Prediction at non-regression points: OFF
+
+Variable settings---------------------------------
+Areal key is not specified
+Easting (x-coord): field49 : x
+Northing (y-coord): field50: y
+Cartesian coordinates: Euclidean distance
+Dependent variable: field47: ln_rent
+Offset variable is not specified
+Intercept: varying (Local) intercept
+Independent variable with varying (Local) coefficient: field4: bedrooms
+Independent variable with varying (Local) coefficient: field5: bathrooms
+Independent variable with varying (Local) coefficient: field6: sqft
+Independent variable with varying (Local) coefficient: field18: age_of_hea
+Independent variable with varying (Local) coefficient: field19: income_med
+Independent variable with varying (Local) coefficient: field34: pct_white
+Independent variable with varying (Local) coefficient: field35: pct_black
+Independent variable with varying (Local) coefficient: field38: pct_any_na
+Independent variable with varying (Local) coefficient: field39: pct_asian
+Independent variable with varying (Local) coefficient: field40: pct_pacifi
+Independent variable with varying (Local) coefficient: field41: pct_other_
+Independent variable with varying (Local) coefficient: field42: pct_mixed_
+Independent variable with varying (Local) coefficient: field43: pct_mover
+Independent variable with varying (Local) coefficient: field44: pct_owner
+Independent variable with varying (Local) coefficient: field45: avg_hh_siz
+Independent variable with varying (Local) coefficient: field46: cars_per_h
+*****************************************************************************
+
+*****************************************************************************
+  Global regression result
+*****************************************************************************
+  < Diagnostic information >
+Residual sum of squares:                 3632.206832
+Number of parameters:                       17
+ (Note: this num does not include an error variance term for a Gaussian model)
+ML based global sigma estimate:             0.240583
+Unbiased global sigma estimate:             0.240615
+-2 log-likelihood:                       -721.975318
+Classic AIC:                             -685.975318
+AICc:                                    -685.964415
+BIC/MDL:                                 -523.129721
+CV:                                         0.057920
+R square:                                   0.557790
+Adjusted R square:                          0.557670
+
+Variable                  Estimate    Standard Error      t(Est/SE) 
+-------------------- --------------- --------------- ---------------
+Intercept                   4.212190        0.202542       20.796598
+bedrooms                    0.071487        0.001788       39.972561
+bathrooms                   0.073261        0.002479       29.553835
+sqft                        0.000265        0.000004       67.651348
+age_of_hea                  0.000158        0.000201        0.783632
+income_med                  0.000003        0.000000       80.828313
+pct_white                   3.652042        0.202484       18.036240
+pct_black                   3.265496        0.202902       16.093928
+pct_any_na                 -1.892779        0.369591       -5.121280
+pct_asian                   3.763461        0.202618       18.574187
+pct_pacifi                  5.661848        0.299684       18.892704
+pct_other_                  4.314709        0.206880       20.856099
+pct_mixed_                  3.044960        0.224193       13.581844
+pct_mover                  -0.157152        0.010838      -14.500509
+pct_owner                  -0.075257        0.006962      -10.808904
+avg_hh_siz                 -0.044512        0.003066      -14.516259
+cars_per_h                 -0.339664        0.003555      -95.542856
+
+*****************************************************************************
+  GWR (Geographically weighted regression) bandwidth selection
+*****************************************************************************
+
+Bandwidth search <golden section search>
+  Limits: 500,  1000
+外部组件发生异常。Program unsuccessfully terminated at 2017/3/24 5:31:53

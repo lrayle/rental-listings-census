@@ -2,7 +2,7 @@
 
 Predictive models for rental prices. 
 
-We are developing a variety of models that make use of rental listings data scraped from Craigslist by the [Urban Analytics Lab] (https://github.com/ual/scraper2).
+We are developing a variety of models that make use of rental listings data scraped from Craigslist by the [Urban Analytics Lab](https://github.com/ual/scraper2).
 
 ### Data preparation
 

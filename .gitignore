@@ -1,6 +1,8 @@
 settings.json
 ssh_settings.json
 postgres_settings.json
+census-data-connection.txt
+
 
 src/settings.json
 src/ssh_settings.json
@@ -10,3 +12,11 @@ src/postgres_settings.json
 src/.ipynb_checkpoints/*
 .DS_Store
 data/gwr.shp.YANG-PC.351276.356720.sr.lock
+data/blk_gr/
+data/cl*
+
+src/Untitled*
+src/*demo*
+
+
+*checkpoint*
